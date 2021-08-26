@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  width: 1180px;
+  margin: auto;
+}
+.container-full {
+  width: 98%;
+  margin: auto;
+}
+.clear {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+/*  Navigation AREA*/
+.header-area {
+  background-image: linear-gradient(
+    to right top,
+    #093880,
+    #0068b9,
+    #0094be,
+    #00bc89,
+    #04db11
+  );
+}
+#nav {
+  height: 70px;
+}
+.nav-logo {
+  float: left;
+}
+
+.nav-logo a {
+  font-size: 30px;
+  color: rgb(164, 183, 190);
+  padding: 20px 0;
+  display: block;
+}
+.main-menu {
+  float: right;
+}
+.main-menu ul {
+}
+.main-menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.main-menu ul li a {
+  padding: 25px 0;
+  color: rgb(217, 227, 230);
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+}
+.main-menu ul li a::before {
+  content: "";
+  position: absolute;
+  background: #311f94;
+  height: 2px;
+  bottom: 15px;
+}
+.main-menu ul li a:hover::before {
+  width: 100%;
+}
+/* HOME SECTION */
+.home-area {
+  background-image: url(/img/Images_1.jpg);
+  height: 600px;
+  background-size: cover;
+}
+.dark-overlay {
+  height: 600px;
+  background-color: rgba(79, 66, 126, 0.5);
+}
+.home-content {
+  text-align: center;
+  padding-top: 210px;
+}
+.home-text {
+}
+.home-text h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.home-text h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.home-text h1 span {
+  color: #ff5321;
+}
+.home-button {
+  padding-top: 30px;
+}
+.home-button a:first-child {
+  background-color: #093880;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.home-button a:first-child:hover {
+  background-color: #ff5321;
+}
+.home-button a {
+  color: #fff;
+  background: #ff5321;
+  padding: 12px 29px;
+  font-size: 18px;
+}
+
+/* ABOUt-AREA */
+.about-area {
+}
+.about-content {
+  padding: 30px 0;
+}
+.about-content h2 {
+  color: #ff5322;
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.about-text {
+  float: left;
+  width: 49%;
+  padding-top: 50px;
+}
+.about-text h3 {
+  color: #222;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.about-text p {
+  font-size: 16px;
+  color: #222;
+  line-height: 26px;
+}
+.about-img {
+  float: right;
+  width: 49%;
+}
+.about-img img {
+  width: 120%;
+}
+/* SERVICE AREA nbn */
+.services-content {
+  padding: 30px 0;
+}
+.services-content h2 {
+  text-align: center;
+  color: #ff5321;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.services-img {
+  background-image: url(/img/images_3.jpg);
+  height: 300px;
+  float: left;
+  width: 49%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.services-text {
+  float: right;
+  width: 48%;
+  padding-top: 50px;
+}
+.single-service {
+  margin-bottom: 20px;
+}
+.single-service h3 {
+  font-size: 28px;
+  color: #222;
+  position: relative;
+}
+.single-service h3::before {
+  content: "";
+  position: absolute;
+  background: #ff5321;
+  width: 3px;
+  height: 50px;
+  left: -10px;
+}
+.single-service h3 span {
+  color: #ff5321;
+}
+.single-service p {
+  font-size: 16px;
+  color: #222;
+}
+/* OFFICE AREA */
+.office-area {
+}
+.office-content {
+}
+.office-content h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ff5321;
+  padding: 25px;
+}
+.office-text {
+  float: left;
+  width: 49%;
+  padding-top: 50px;
+}
+.office-text h3 {
+  font-size: 22px;
+  color: #222;
+  padding-bottom: 15px;
+}
+.office-text p {
+  font-size: 16px;
+  color: #222;
+  line-height: 26px;
+}
+.office-img {
+  float: right;
+  width: 49%;
+}
+
+/* CONTACT AREA */
+.contact-section {
+}
+.contact-content {
+}
+.contact-content h2 {
+  font-size: 45px;
+  color: #ff5321;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px;
+}
+.contact-form {
+  float: left;
+  width: 38%;
+}
+.contact-form input {
+  width: 100%;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-form button {
+  background: #555;
+  color: #fff;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 15px;
+}
+.contact-form button:hover{
+background-color: #ff5321;
+}
+.contact-map {
+  float: right;
+  width: 55%;
+}
+/* Footer */
+.footer-area{
+  background: #222;
+  padding: 30px 0;
+  margin-top: 20px ;
+}
+.footer-text{}
+.footer-text p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-icon{
+  text-align: center;
+}
+.footer-icon ul li{
+ display: inline-block;
+ margin-right: 20px ;
+}
+.footer-icon ul li a{
+  color: #ddd;
+  font-size: 18px;
+  padding-top: 10px;
+  display: inline-block;
+}
+.footer-icon ul li a:hover{
+  color: #ff5321;
+}
+.footer-icon ul li a i{}

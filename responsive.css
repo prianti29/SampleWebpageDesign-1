@@ -1,0 +1,57 @@
+/* NORMAL DESKTOP :992px */
+@media (min-width: 992) and (max-width: 1200px) {    
+    .container {
+        width: 970px;
+        margin: auto;
+      }
+}
+/* TABLET DESKTOP "798px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 730px;
+      }
+      .home-text h2 {
+        font-size: 35px;
+      }
+      .home-text h1 {
+        font-size: 50px;
+      }
+      .home-area {
+        height: 500px;
+      }
+      .dark-overlay {
+        height: 500px;
+      }
+      .home-content {
+        padding-top: 150px;
+      }
+      .about-text p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .office-text p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .about-text {
+        padding-top: 15px;
+      }
+      .services-text {
+        padding-top: 30px;
+      }
+}
+/* EX SMAILL MOBILE :320px */
+@media (max-width: 767px) {
+  .container {
+    width: 97%;
+    margin: auto;
+  }
+  .about-text {
+    padding-top: 0px;
+  }
+}
+/* LARGE MOBILE :480px */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+
+}
